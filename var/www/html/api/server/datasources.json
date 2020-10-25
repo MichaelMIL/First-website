@@ -1,0 +1,18 @@
+{
+  "db": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "mywebsite",
+    "password": "6744078",
+    "name": "db",
+    "connector": "mongodb",
+    "user": "michaelAdmin"
+  },
+  "myFile": {
+    "name": "myFile",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/storage",
+    "nameConflict": "makeUnique"
+  }
+}
