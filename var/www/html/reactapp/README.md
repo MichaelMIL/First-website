@@ -44,8 +44,6 @@ npm build
 
 ### Run- dev
 
-requires [pm2](https://github.com/Unitech/pm2/blob/master/README.md)
-
 ```sh
 npm start
 ```
